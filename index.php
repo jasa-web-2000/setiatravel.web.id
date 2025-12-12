@@ -1,13 +1,13 @@
 <?php
 
-// $domain = 'http://localhost/travelmurahpurwokerto.web.id/';
-$domain = 'https://travelmurahpurwokerto.web.id/';
-$brand = 'Travel Murah Purwokerto';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.png';
-$title = $brand . " Dengan Harga Murah dan terjangkau";
-$desc = $brand . " siap membantu perjalanan travel anda dengan harga murah dan terjangkau. Nikmati perjalanan nyaman dari Purwokerto ke berbagai kota tujuan bersama kami.";
-$telp = '0856-4227-3500';
+// $domain = 'http://localhost/setiatravel.web.id/';
+$domain = 'https://setiatravel.web.id/';
+$brand = 'Setia Travel';
+$logo = 'src/img/LOGO-St.jpg';
+$logoPanjang = 'src/img/LOGO-St.png';
+$title = $brand . "  - Jasa Travel se-Jawa Terpercaya";
+$desc = $brand . " adalah penyedia jasa travel reguler terpercaya do Pulau Jawa";
+$telp = '0812-1519-9411';
 // $telp2 = '0857-9190-4615';
 $alamat = 'G6PW+V82 Teluk, Kabupaten Banyumas, Jawa Tengah';
 
@@ -93,6 +93,30 @@ $rute = [
   "Travel Purwokerto Pacitan",
   "Travel Purwokerto Blitar",
 
+  "Travel Cilacap Jakarta",
+  "Travel Cilacap Bandung",
+  "Travel Cilacap Tasikmalaya",
+  "Travel Cilacap Garut",
+  "Travel Cilacap Cianjur",
+  "Travel Cilacap Tegal",
+  "Travel Cilacap Pekalongan",
+  "Travel Cilacap Kendal",
+  "Travel Cilacap Semarang",
+  "Travel Cilacap Jepara",
+  "Travel Cilacap Demak",
+  "Travel Cilacap Kudus",
+  "Travel Cilacap Pati",
+  "Travel Cilacap Rembang",
+  "Travel Cilacap Purwodadi",
+  "Travel Cilacap Blora",
+  "Travel Cilacap Salatiga",
+  "Travel Cilacap Boyolali",
+  "Travel Cilacap Solo",
+  "Travel Cilacap Klaten",
+  "Travel Cilacap Yogyakarta",
+  "Travel Cilacap Magelang",
+  "Travel Cilacap Wonosobo",
+
 
   "Travel Jakarta Purwokerto",
   "Travel Bogor Purwokerto",
@@ -127,6 +151,30 @@ $rute = [
   "Travel Tulungagung Purwokerto",
   "Travel Pacitan Purwokerto",
   "Travel Blitar Purwokerto",
+
+  "Travel Jakarta Cilacap",
+  "Travel Bandung Cilacap",
+  "Travel Tasikmalaya Cilacap",
+  "Travel Garut Cilacap",
+  "Travel Cianjur Cilacap",
+  "Travel Tegal Cilacap",
+  "Travel Pekalongan Cilacap",
+  "Travel Kendal Cilacap",
+  "Travel Semarang Cilacap",
+  "Travel Jepara Cilacap",
+  "Travel Demak Cilacap",
+  "Travel Kudus Cilacap",
+  "Travel Pati Cilacap",
+  "Travel Rembang Cilacap",
+  "Travel Purwodadi Cilacap",
+  "Travel Blora Cilacap",
+  "Travel Salatiga Cilacap",
+  "Travel Boyolali Cilacap",
+  "Travel Solo Cilacap",
+  "Travel Klaten Cilacap",
+  "Travel Yogyakarta Cilacap",
+  "Travel Magelang Cilacap",
+  "Travel Wonosobo Cilacap",
 
 ];
 
@@ -166,24 +214,6 @@ $galeri = [
   class="scroll-smooth">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WB6M9LCZ');
-  </script>
-  <!-- End Google Tag Manager -->
 
   <meta name="google-site-verification" content="Au-0oiPlSMxQIYnlAeGdiKBE8J2x3dXRnV76YHpLGwo" />
 
@@ -221,10 +251,7 @@ $galeri = [
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB6M9LCZ"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+
   <header class="">
     <div class="container ">
       <div class="flex justify-between">
@@ -346,7 +373,7 @@ $galeri = [
     <section class="container">
       <div
         style="background-image: url(./src/img/background-hero-section.jpg)"
-        class="py-10 lg:py-7 bg-fixed bg-cover bg-center rounded-lg relative">
+        class="py-10 lg:py-7 bg-fixed bg-[size:100%] bg-center rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(15_23_42_/_0.5),rgb(51_65_85_/_0.7))] from-0% via-90% to-100%">
         </div>
@@ -546,7 +573,7 @@ $galeri = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="./src/img/rute.jpg"
+                  src="./src/img/RUTE-ST.jpg"
                   width="100%"
                   height="100%"
                   loading="lazy"

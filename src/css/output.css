@@ -1091,12 +1091,20 @@ video {
   background-size: cover;
 }
 
+.bg-\[size\:100\%\] {
+  background-size: 100%;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-\[100\%\] {
+  background-position: 100%;
 }
 
 .fill-primary {
